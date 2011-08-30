@@ -320,9 +320,11 @@
 !SLIDE
 
 # Can I see that again?
+* https://github.com/heroku/databasedotcom
+* https://github.com/dburkes/databasedotcom-rails
 * https://github.com/dburkes/dreamforce-demo
-* http://dreamforce-demo.heroku.com/slides
 
 !SLIDE huge
 
 # THANK YOU
+* http://dreamforce-demo.heroku.com/slides
