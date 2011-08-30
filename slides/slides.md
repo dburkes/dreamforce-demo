@@ -321,7 +321,6 @@
 
 # Can I see that again?
 * https://github.com/dburkes/dreamforce-demo
-* http://dreamforce-demo.heroku.com
 * http://dreamforce-demo.heroku.com/slides
 
 !SLIDE huge
