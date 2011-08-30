@@ -617,7 +617,7 @@
 
 <div class="CodeRay">
   <div class="code"><pre>
-  feed_items = <span class="co">Databasedotcom</span>::<span class="co">CompanyFeed</span>.find(client, <span class="s"><span class="dl">&quot;</span><span class="k">me</span><span class="dl">&quot;</span></span>)
+  feed_items = <span class="co">Databasedotcom</span>::<span class="co">Chatter</span>::<span class="co">CompanyFeed</span>.find(client, <span class="s"><span class="dl">&quot;</span><span class="k">me</span><span class="dl">&quot;</span></span>)
   
   feed_items.each <span class="r">do</span> |feed_item|
     feed_item.likes                   <span class="c">#=&gt; a Collection of Likes</span>

@@ -238,7 +238,7 @@
 # The Chatter API
 @@@ ruby
 
-    feed_items = Databasedotcom::CompanyFeed.find(client, "me")
+    feed_items = Databasedotcom::Chatter::CompanyFeed.find(client, "me")
     
     feed_items.each do |feed_item|
       feed_item.likes                   #=> a Collection of Likes
