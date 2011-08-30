@@ -18,6 +18,6 @@ class UsersController < ApplicationController
   private
   
   def verify_configuration
-    redirect_to config_warning_path unless File.exist?(File.join(Rails.root, 'config', 'databasedotcom.yml'))
+    redirect_to "/slides" unless File.exist?(File.join(Rails.root, 'config', 'databasedotcom.yml'))
   end
 end
