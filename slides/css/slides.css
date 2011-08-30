@@ -1,0 +1,124 @@
+/* Custom CSS for your KeyDown presentation here */
+
+.slide {
+  background: white;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.slide.past, .slide.future {
+  display: none;
+}
+
+.slide .counter, #presentation-counter {
+  display: none;
+}
+
+.slide:nth-child(even), .slide:nth-child(odd) {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+}
+
+.slide section {
+  height: 100%;
+  background: white url(../images/logo.png) no-repeat;
+  background-size: 170px;
+  background-position: 98% 92%;
+}
+
+.slide section.title.main {
+  background: white;
+}
+
+.slide .title.main img {
+  width: 400px;
+  position: absolute;
+  top: 279px;
+  left: 256px;
+}
+
+.slide .title h1 {
+	display: block;
+	margin-bottom: 210px;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 54px;
+}
+
+.slide .title h2 {
+	text-align: center;
+}
+
+.slide .title h4 {
+	display: block;
+	margin-bottom: 190px;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 54px;
+	line-height: 120px;
+}
+
+.slide h1 {
+	display: block;
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 60px;
+	text-transform: capitalize;
+}
+
+.slide h2 {
+	display: block;
+	text-align: center;
+	font-size: 34px;
+	margin-bottom: 40px;
+	text-transform: capitalize;
+}
+
+.slide h3 {
+  text-transform: capitalize;
+}
+
+.slide .title.main h3 {
+  text-align: center;
+  text-transform: none;
+}
+
+.slide ul {
+	padding: 25px;
+	margin: auto;
+	list-style: none;
+}
+
+.slide ul li {
+	margin-bottom: 48px;
+	text-align: center;
+  font-size: 28px;
+}
+
+.slide .huge h1 {
+	display: block;
+	text-align: center;
+	font-size: 90px;
+	margin-top: 190px;
+	font-family: Monaco, Courier;
+}
+
+.slide section, .slide footer {
+  margin-top: 40px;
+}
+
+pre {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.CodeRay {
+  text-shadow: none;
+}
