@@ -1,0 +1,14 @@
+<h1>Whoa there!</h1>
+
+<% if true || request.host == "dreamforce-demo.heroku.com" %>
+<p>
+To use <code>dreamforce-demo</code>, you need to download the source from <a href='https://github.com/dburkes/dreamforce-demo'>Github</a>, then provide your own <code>databasedotcom.yml</code>.
+</p>
+<p>
+  <em>Perhaps you were looking for the <a href='/slides'>slides</a> instead?</em>
+</p>
+<% else %>
+<p>  
+This app can't connect to Salesforce because no <code>databasedotcom.yml</code> is present in the <code>config</code> directory.
+</p>
+<% end %>
